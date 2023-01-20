@@ -9,8 +9,8 @@
   <remote  name="dbus"       fetch="https://gitlab.freedesktop.org/dbus" clone-depth="1" />
   <remote  name="libcamera"  fetch="https://git.libcamera.org/libcamera" clone-depth="1" />
 
-  <!--libcxx hasn't been updated for too long and has a BUG: https://bugs.llvm.org/show_bug.cgi?id=41130 , use a temporary fork for now-->
-  <project path="external/libcxx" remote="glodroid" name="glodroid_forks.git" groups="glodroid" revision="refs/tags/libcxx-v0.8.2" />
+  <!--libcxx hasn't been updated for too long and has a BUG: https://bugs.llvm.org/show_bug.cgi?id=41130 , use a temporary fork for now
+  <project path="external/libcxx" remote="glodroid" name="glodroid_forks.git" groups="glodroid" revision="refs/tags/libcxx-v0.8.2" />-->
 
   <remove-project name="platform/external/mesa3d" />
   <remove-project name="platform/external/drm_hwcomposer" />
