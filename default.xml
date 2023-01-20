@@ -2,6 +2,6 @@
 <manifest>
 
   <include name="lineageos.xml" />
-  <include name="pinephone.xml" />
+  <include name="glodroid.xml" />
 
 </manifest>
